@@ -1,101 +1,88 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+#!/usr/bin/env python 
+# -*- coding: utf-8 -*-
+import webbrowser
+import time
+import os
 
-# C extensions
-*.so
+print('''
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+ ██████╗ ██╗      ██████╗  ██████╗               ██╗   ██╗██╗███████╗██╗    ██╗    
+ ██╔══██╗██║     ██╔═══██╗██╔════╝               ██║   ██║██║██╔════╝██║    ██║    
+ ██████╔╝██║     ██║   ██║██║  ███╗    █████╗    ██║   ██║██║█████╗  ██║ █╗ ██║    
+ ██╔══██╗██║     ██║   ██║██║   ██║    ╚════╝    ╚██╗ ██╔╝██║██╔══╝  ██║███╗██║    
+ ██████╔╝███████╗╚██████╔╝╚██████╔╝               ╚████╔╝ ██║███████╗╚███╔███╔╝    
+ ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝                 ╚═══╝  ╚═╝╚══════╝ ╚══╝╚══╝    
+     
+                                                                                                                                        
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+ :================================================================:
+ :  -  SCRIPT DE ESTUDO BÁSICO EM PYTHON // BY: Loock Underwood   :
+ :================================================================:
+ :  - TAMO JUNTO ° FELIPE MANDIOCA, ° DERICK e ° PEDRO BASTÃO.    :
+ :================================================================:                                                              
+ :  - GRUPO : https://www.facebook.com/groups/fsocietybrasil/     :
+ :================================================================:                                                             
+                                                                 ''')
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
 
-# Translations
-*.mo
-*.pot
+#=================================================================================#
+print('\n #============================================================================================#')
+#=================================================================================#
 
-# Django stuff:
-*.log
-local_settings.py
+print("\n\n [!] Olá! Vamos dar início ao processo?\n")
 
-# Flask stuff:
-instance/
-.webassets-cache
+print('\n #============================================================================================#')
+#=================================================================================#
 
-# Scrapy stuff:
-.scrapy
+url = input("\n [!] Coloque a Url do Blog: https://")
 
-# Sphinx documentation
-docs/_build/
+print('\n #============================================================================================#')
+#=================================================================================#
 
-# PyBuilder
-target/
+refresh = input("\n [!] Coloque o tempo de refresh em segundos: ")
 
-# Jupyter Notebook
-.ipynb_checkpoints
+print('\n #============================================================================================#')
+#=================================================================================#
 
-# pyenv
-.python-version
+brow = input("\n [!] Coloque o nome do seu Navegador (Respeitando A - a): ")
 
-# celery beat schedule file
-celerybeat-schedule
+print('\n #============================================================================================#')
 
-# SageMath parsed files
-*.sage.py
+vezes = int(input("\n [!] Coloque o Número de Views que desejas ganhar: "))
 
-# dotenv
-.env
+print('\n #============================================================================================#')
 
-# virtualenv
-.venv
-venv/
-ENV/
+#=================================================================================#
 
-# Spyder project settings
-.spyderproject
-.spyproject
+print('\n [!] ESPERE 5 SEGUNDOS POR FAVOR.')
 
-# Rope project settings
-.ropeproject
+print('\n--------------------------------------')
 
-# mkdocs documentation
-/site
+def openurl():
+        print("\n [!]!Views Adquiridas! ")
+        webbrowser.open(url)
+time.sleep(5)
+		
 
-# mypy
-.mypy_cache/
+for i in range(vezes):
+        openurl()
+
+print('\n#========================================================================#')
+
+print('''
+KKK     KKK   III    SSSSSS     SSSSSS
+KKK    KKK    III   SSSSSSS    SSSSSSS
+KKK  KKKK     III   SSS        SSS
+KKKKKK        III   SSSSSS     SSSSSS
+KKKKKK        III   SSSSSSS    SSSSSSS
+KKK  KKKK     III       SSS        SSS
+KKK    KKK    III   SSSSSSS    SSSSSSS
+KKK     KKK   III   SSSSSSS    SSSSSSS''')
+
+
+time.sleep(11)
+    
+
+
+      
