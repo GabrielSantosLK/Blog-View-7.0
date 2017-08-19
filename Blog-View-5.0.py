@@ -1,4 +1,4 @@
-print('© 2017 Copyright TODOS OS DIREITOS RESERVADOS POR LOOCK UNDERWOOD') 
+print('\n © 2017 Copyright TODOS OS DIREITOS RESERVADOS POR LOOCK UNDERWOOD') 
 #!/usr/bin/env python 
 # -*- coding: utf-8 -*-
 import webbrowser
