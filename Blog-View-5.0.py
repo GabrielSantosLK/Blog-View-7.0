@@ -1,4 +1,4 @@
-# © Copyright TODOS OS DIREITOS RESERVADOS POR LOOCK UNDERWOOD  
+print('© 2017 Copyright TODOS OS DIREITOS RESERVADOS POR LOOCK UNDERWOOD') 
 #!/usr/bin/env python 
 # -*- coding: utf-8 -*-
 import webbrowser
@@ -23,7 +23,7 @@ print('''
  :  - TAMO JUNTO ° FELIPE MANDIOCA, ° DERICK e ° PEDRO BASTAO.    :
  :================================================================:                                                              
  :  - GRUPO : https://www.facebook.com/groups/fsocietybrasil/     :
- :================================================================:                                                             
+ :================================================================:                                                            
                                                                  ''')
 
 
@@ -41,12 +41,12 @@ url = input("\n [!] Coloque a Url do Blog: ")
 print('\n #============================================================================================#')
 #=================================================================================#
 
-refresh = eval(input("\n [!] Caso queira, coloque o tempo de refresh em segundos, se nao quiser coloque 0: "))
+refresh = eval(input("\n [!] Caso queira, coloque o tempo de refresh em segundos, se não quiser coloque 0: "))
 
 print('\n #============================================================================================#')
 #=================================================================================#
 
-#brow = input("\n [!] Coloque o nome do seu Navegador (Respeitando A - a): ") #Função desabilitada por enquanto (usa browser default)
+#brow = input("\n [!] Coloque o nome do seu Navegador (Respeitando A - a): ") #Função desabilitada por enquanto (USA Browser Default dos Sistema)
 #print('\n #============================================================================================#')
 
 
