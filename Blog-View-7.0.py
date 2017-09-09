@@ -5,6 +5,8 @@ import webbrowser
 import time
 import os
 
+# CRÉDITOS AO: Es7evam - https://github.com/Es7evam
+
 print('''
 
 
