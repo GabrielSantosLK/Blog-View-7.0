@@ -1,4 +1,4 @@
-print('\n © 2017 Copyright TODOS OS DIREITOS RESERVADOS POR LOOCK UNDERWOOD') 
+print('\n © 2017 Copyright TODOS OS DIREITOS RESERVADOS POR GABRIEL SANTOS') 
 #!/usr/bin/env python 
 # -*- coding: utf-8 -*-
 import webbrowser
@@ -20,7 +20,7 @@ print('''
                                                                                                                                         
 
  :================================================================:
- :  -  SCRIPT DE ESTUDO BASICO EM PYTHON // BY: Loock Underwood   :
+ :  -  SCRIPT DE ESTUDO BASICO EM PYTHON // BY: GABRIEL SANTOS    :
  :================================================================:
  :  - TAMO JUNTO ° FELIPE MANDIOCA, ° DERICK e ° PEDRO BASTAO.    :
  :================================================================:                                                              
